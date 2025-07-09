@@ -1,0 +1,15 @@
+C:\Users\pc\source\repos\PracticoSolid\PracticoSolid\bin\Debug\PracticoSolid.exe.config
+C:\Users\pc\source\repos\PracticoSolid\PracticoSolid\bin\Debug\PracticoSolid.exe
+C:\Users\pc\source\repos\PracticoSolid\PracticoSolid\bin\Debug\PracticoSolid.pdb
+C:\Users\pc\source\repos\PracticoSolid\PracticoSolid\obj\Debug\Capa Presentacion.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\PracticoSolid\PracticoSolid\obj\Debug\PracticoSolid.Properties.Resources.resources
+C:\Users\pc\source\repos\PracticoSolid\PracticoSolid\obj\Debug\Capa Presentacion.csproj.GenerateResource.cache
+C:\Users\pc\source\repos\PracticoSolid\PracticoSolid\obj\Debug\Capa Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\PracticoSolid\PracticoSolid\obj\Debug\PracticoSolid.exe
+C:\Users\pc\source\repos\PracticoSolid\PracticoSolid\obj\Debug\PracticoSolid.pdb
+C:\Users\pc\source\repos\PracticoSolid\PracticoSolid\bin\Debug\Capa Negocio.dll
+C:\Users\pc\source\repos\PracticoSolid\PracticoSolid\bin\Debug\Capa Datos.dll
+C:\Users\pc\source\repos\PracticoSolid\PracticoSolid\bin\Debug\Capa Negocio.pdb
+C:\Users\pc\source\repos\PracticoSolid\PracticoSolid\bin\Debug\Capa Datos.pdb
+C:\Users\pc\source\repos\PracticoSolid\PracticoSolid\obj\Debug\PracticoSolid.Form1.resources
+C:\Users\pc\source\repos\PracticoSolid\PracticoSolid\obj\Debug\Capa Presentacion.csproj.CopyComplete
