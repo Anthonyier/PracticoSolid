@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capa Presentacion", "PracticoSolid\Capa Presentacion.csproj", "{15D337AC-48CB-41FC-B099-E9D1AF1E23B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaPresentacion", "PracticoSolid\CapaPresentacion.csproj", "{15D337AC-48CB-41FC-B099-E9D1AF1E23B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capa Datos", "Capa Datos\Capa Datos.csproj", "{A62F2AC3-9258-4CDA-8F06-1F1B09015C5C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos", "Capa Datos\CapaDatos.csproj", "{A62F2AC3-9258-4CDA-8F06-1F1B09015C5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capa Negocio", "Capa Negocio\Capa Negocio.csproj", "{D150C840-67AD-4CEC-840D-FA4C348E5416}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaNegocio", "Capa Negocio\CapaNegocio.csproj", "{D150C840-67AD-4CEC-840D-FA4C348E5416}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

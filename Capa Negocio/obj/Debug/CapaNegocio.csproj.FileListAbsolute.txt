@@ -1,0 +1,9 @@
+C:\Users\pc\source\repos\PracticoSolid\Capa Negocio\bin\Debug\Capa Negocio.dll
+C:\Users\pc\source\repos\PracticoSolid\Capa Negocio\bin\Debug\Capa Negocio.pdb
+C:\Users\pc\source\repos\PracticoSolid\Capa Negocio\bin\Debug\Capa Datos.dll
+C:\Users\pc\source\repos\PracticoSolid\Capa Negocio\bin\Debug\Capa Datos.pdb
+C:\Users\pc\source\repos\PracticoSolid\Capa Negocio\obj\Debug\CapaNegocio.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\PracticoSolid\Capa Negocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\PracticoSolid\Capa Negocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\pc\source\repos\PracticoSolid\Capa Negocio\obj\Debug\Capa Negocio.dll
+C:\Users\pc\source\repos\PracticoSolid\Capa Negocio\obj\Debug\Capa Negocio.pdb
