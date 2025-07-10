@@ -44,6 +44,11 @@
     <Compile Include="NegocioFabricante.cs" />
     <Compile Include="NegocioGrupoProducto.cs" />
     <Compile Include="NegocioProducto.cs" />
+    <Compile Include="NegocioProductosBebidas.cs" />
+    <Compile Include="NegocioProductosEnlatados.cs" />
+    <Compile Include="NegocioProductosFrutas.cs" />
+    <Compile Include="NegocioProductosLacteos.cs" />
+    <Compile Include="NegocioProductosVegetales.cs" />
     <Compile Include="NegocioProveedor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -7,9 +7,25 @@ using Capa_Datos;
 
 namespace Capa_Negocio
 {
-    class NegocioProducto
+    public abstract class NegocioProducto
     {
-      
+
+       public DatosProducto objProducto;
+
+        public void RegistrarProducto(string nombre,decimal peso,string um,decimal precioLista,string codBarra,int idFabrica)
+        {
+            objProducto.crearSkuBase();
+            objProducto.crearSkuAlternateProducto(objProducto.CSku);
+            objProducto.CNombre = nombre;
+            objProducto.NPeso = peso;
+            objProducto.CUM = um;
+            objProducto.NPrecioLista = precioLista;
+            objProducto.CCodBarra = codBarra;
+            objProducto.IdCodFabricante = idFabrica;
+            objProducto.IdProveedor = 1;
+
+            objProducto.RegistrarProducto();
+        }
 
     }
 }

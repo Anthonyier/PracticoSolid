@@ -41,10 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DatosConexion.cs" />
+    <Compile Include="ClassConexionMongoDb.cs" />
+    <Compile Include="ClassConexionMySql.cs" />
+    <Compile Include="ClassConexionOracleDB.cs" />
+    <Compile Include="DatosProductosBebidas.cs" />
+    <Compile Include="DatosProductosEnlatados.cs" />
+    <Compile Include="DatosProductosFrutas.cs" />
+    <Compile Include="DatosProductosVegetales.cs" />
+    <Compile Include="IBasesDeDatos.cs" />
+    <Compile Include="DatosConexionSqlServer.cs" />
     <Compile Include="DatosFabricante.cs" />
     <Compile Include="DatosGrupoProducto.cs" />
     <Compile Include="DatosProducto.cs" />
+    <Compile Include="DatosProductosLacteos.cs" />
     <Compile Include="DatosProveedor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

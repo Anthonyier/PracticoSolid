@@ -1,0 +1,6 @@
+C:\Users\pc\source\repos\PracticoSolid\Capa Datos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\PracticoSolid\Capa Datos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\PracticoSolid\Capa Datos\obj\Debug\Capa Datos.dll
+C:\Users\pc\source\repos\PracticoSolid\Capa Datos\obj\Debug\Capa Datos.pdb
+C:\Users\pc\source\repos\PracticoSolid\Capa Datos\bin\Debug\Capa Datos.dll
+C:\Users\pc\source\repos\PracticoSolid\Capa Datos\bin\Debug\Capa Datos.pdb

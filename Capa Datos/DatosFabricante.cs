@@ -11,13 +11,24 @@ namespace Capa_Datos
 {
     public class DatosFabricante
     {
-        public int id;
-        public string nombre;
+
+        public string cSkuFabricante;
+        public string cNmbFabricante;
+
+        public string CSkuFabricante
+        {
+            get => cSkuFabricante; set => cSkuFabricante = value;
+        }
+        public string CNmbFabricante
+        {
+            get => cNmbFabricante; set => cNmbFabricante = value;
+        }
 
         public string obtenerFabricante()
         {
             SqlCommand comando = null;
-            SqlConnection conex = DatosConexion.getInstance().conectar();
+            IBasesDeDatos objConexion = new DatosConexionSqlServer();
+            SqlConnection conex = objConexion.conectar();
             SqlDataReader lector = null;
             string nombrefabricante = "";
            try
@@ -40,6 +51,26 @@ namespace Capa_Datos
             return nombrefabricante;
         }
         
+        public DataTable obtenerTodosLosFabricantes()
+        {
+            
+            IBasesDeDatos objConexion = new DatosConexionSqlServer();
+            SqlConnection conex = objConexion.conectar();
+            DataTable tabla = new DataTable();
+            try
+            {
+                conex.Open();
+                string query = "SELECT id,nombre FROM fabricante";
+                SqlDataAdapter adapter = new SqlDataAdapter(query, conex);
+                adapter.Fill(tabla);
+                conex.Close();
+                return tabla;
+            }
+            catch(Exception ex)
+            {
+                return tabla;
+            }
 
+        }
     }
 }
