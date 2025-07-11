@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 
 namespace Capa_Datos
 {
-    interface IBasesDeDatos
+    interface IBasesDeDatos // principio de segregación de interfaces
     {
         SqlConnection conectar();
      }

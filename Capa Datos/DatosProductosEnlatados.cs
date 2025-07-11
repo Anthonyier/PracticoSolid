@@ -24,7 +24,7 @@ namespace Capa_Datos
             CSku = "Enlatados-";
         }
 
-        public override string obtenerClasificacionProducto(int Id)
+        public override string obtenerClasificacionProducto()
         {
             string clasificacion = "Estos Productos Son Enlatados";
             return clasificacion;

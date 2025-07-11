@@ -24,7 +24,7 @@ namespace Capa_Datos
             CSku = "Lacteo-";
         }
 
-        public override string obtenerClasificacionProducto(int Id)
+        public override string obtenerClasificacionProducto()
         {
             string clasificacion = "Estos Productos Son Lacteos";
             return clasificacion;

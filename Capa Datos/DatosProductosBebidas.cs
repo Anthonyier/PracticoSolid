@@ -24,7 +24,7 @@ namespace Capa_Datos
             CSku = "Bebidas-";
         }
 
-        public override string obtenerClasificacionProducto(int Id)
+        public override string obtenerClasificacionProducto()
         {
             string clasificacion = "Estos Productos Son Bebidas";
             return clasificacion;

@@ -10,7 +10,7 @@ namespace Capa_Negocio
     public abstract class NegocioProducto
     {
 
-       public DatosProducto objProducto;
+       protected DatosProducto objProducto;
 
         public void RegistrarProducto(string nombre,decimal peso,string um,decimal precioLista,string codBarra,int idFabrica)
         {
@@ -27,5 +27,9 @@ namespace Capa_Negocio
             objProducto.RegistrarProducto();
         }
 
+        public string obtenerClasificacion()
+        {
+            return objProducto.obtenerClasificacionProducto();
+        }
     }
 }

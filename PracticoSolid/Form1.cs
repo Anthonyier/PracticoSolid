@@ -18,12 +18,7 @@ namespace PracticoSolid
             InitializeComponent();
         }
 
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            NegocioFabricante objFabricante = new NegocioFabricante();
-            label1.Text = objFabricante.getNombre();
-        }
-
+        
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -48,8 +43,42 @@ namespace PracticoSolid
             int idfabrcia = Convert.ToInt32(comboBoxFabricante.SelectedValue);
 
             NegocioProducto objNegocioProducto = new NegocioProductosLacteos();
-            objNegocioProducto.RegistrarProducto(nombreProducto, pesoProdcuto, um, precioLista, codBarra, idfabrcia);
+            objNegocioProducto.RegistrarProducto(nombreProducto, pesoProdcuto, um, precioLista, codBarra, idfabrcia); // principio de susticion de liskov
+            label1.Text = objNegocioProducto.obtenerClasificacion();
 
+        }
+
+        private void Label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            string nombreProducto = textBoxNombreProducto.Text;
+            decimal pesoProdcuto = Convert.ToDecimal(textBoxPeso.Text);
+            string um = textBoxUM.Text;
+            decimal precioLista = Convert.ToDecimal(textBoxPrecioLista.Text);
+            string codBarra = textBoxCodBarra.Text;
+            int idfabrcia = Convert.ToInt32(comboBoxFabricante.SelectedValue);
+
+            NegocioProducto objNegocioProducto = new NegocioProductosVegetales();
+            objNegocioProducto.RegistrarProducto(nombreProducto, pesoProdcuto, um, precioLista, codBarra, idfabrcia);
+            label1.Text = objNegocioProducto.obtenerClasificacion();
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            string nombreProducto = textBoxNombreProducto.Text;
+            decimal pesoProdcuto = Convert.ToDecimal(textBoxPeso.Text);
+            string um = textBoxUM.Text;
+            decimal precioLista = Convert.ToDecimal(textBoxPrecioLista.Text);
+            string codBarra = textBoxCodBarra.Text;
+            int idfabrcia = Convert.ToInt32(comboBoxFabricante.SelectedValue);
+
+            NegocioProducto objNegocioProducto = new NegocioProductosBebidas();
+            objNegocioProducto.RegistrarProducto(nombreProducto, pesoProdcuto, um, precioLista, codBarra, idfabrcia);
+            label1.Text = objNegocioProducto.obtenerClasificacion();
         }
     }
 }

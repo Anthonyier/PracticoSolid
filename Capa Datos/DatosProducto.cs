@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 
 namespace Capa_Datos
 {
-    public abstract class DatosProducto
+    public abstract class DatosProducto // Aqui Aplicamos El principio abierto y cerrado, abierto para la extencion y cerrado para la modificacion
     {
         private string cSku;
         private string cNombre;
@@ -75,7 +75,7 @@ namespace Capa_Datos
             return aSkuAlternate;
         }
 
-        public abstract string obtenerClasificacionProducto(int Id);
+        public abstract string obtenerClasificacionProducto();
 
         public abstract void crearSkuAlternateProducto(string cSkuBase);
 
@@ -85,7 +85,7 @@ namespace Capa_Datos
         {
             SqlCommand cmd = null;
             SqlTransaction myTrans = null;
-            IBasesDeDatos Conexion = new DatosConexionSqlServer();
+            IBasesDeDatos Conexion = new DatosConexionSqlServer(); // principio de inversion de dependencia
             SqlConnection cnx = Conexion.conectar();
             try
             {
